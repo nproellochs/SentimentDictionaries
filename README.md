@@ -4,9 +4,9 @@ SentimentDictionaries is an R package containing dictionaries for sentiment anal
 
 ## Installation
 
-You can install SentimentDictionaries from github with:
+You can install **SentimentDictionaries** from github with:
 
 ```R
 # install.packages("devtools")
-devtools::install_github("NA/NA")
+devtools::install_github("https://github.com/nproellochs/SentimentDictionaries")
 ```
