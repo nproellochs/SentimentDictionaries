@@ -18,9 +18,9 @@ knitr::opts_chunk$set(
 
 ## Overview
 
-This package provides domain-specific dictionaries for sentiment analysis in R. Each dictionary consists of words that statistically feature a positive or negative polarity in movie reviews or financial filings The dictionaries are extracted from two different corpora, namely, IMDb movie reviews and U.S. regulated Form 8-K filings Details are available from the following reference.
+This package provides domain-specific dictionaries for sentiment analysis in R. Each dictionary consists of words that statistically feature a positive or negative polarity in movie reviews or financial filings The dictionaries are extracted from two different corpora, namely, IMDb movie reviews and U.S. regulated Form 8-K filings. Details are available from the following reference.
 
-* Proellochs, Feuerriegel and Neumann (2015): Generating  Domain-Specific Dictionaries Using Bayesian Learning, Proceedings of the 23rd European Conference on Information Systems (ECIS 2015), Muenster, Germany. [DOI: 10.2139/ssrn.2522884](https://dx.doi.org/10.2139/ssrn.2522884)
+* Proellochs, Feuerriegel and Neumann (2017): Language That Matters: Statistical Inferences for Polarity Identification in Natural Language, Working Paper, Chair for Information Systems Research, University of Freiburg, Germany.
 
 Both dictionaries can be easily used in combination with the [SentimentAnalysis](https://github.com/sfeuerriegel/SentimentAnalysis) package.
 
@@ -30,7 +30,7 @@ You can install **SentimentDictionaries** from github with:
 
 ```R
 # install.packages("devtools")
-devtools::install_github("https://github.com/nproellochs/SentimentDictionaries")
+devtools::install_github("nproellochs/SentimentDictionaries", subdir = "R-package")
 ```
 
 ## Usage
@@ -61,7 +61,7 @@ head(dictionary8K)
 
 ## License
 
-**SentimentAnalysis** is released under the [MIT License](https://opensource.org/licenses/MIT)
+**SentimentDictionaries** is released under the [MIT License](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2017 Nicolas Pröllochs & Stefan Feuerriegel
+Copyright (c) 2017 Nicolas Proellochs & Stefan Feuerriegel
 
