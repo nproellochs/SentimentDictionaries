@@ -10,7 +10,12 @@ This library provides domain-specific dictionaries for sentiment analysis. Each 
 Details
 -------
 
-Both dictionaries are shipped in CSV format. The individual columns are as follows:
+This library contains the following dictionary resources in CSV format.
+
+-   **Movie reviews dictionary** : This dictionary contains words that feature a positive or negative connotation in IMDb movie reviews (DictionaryIMDB.csv),
+-   **Financial filings dictionary**: This dictionary contains words that feature a positive or negative connotation in U.S. regulated 8-K filings (Dictionary8K.csv).
+
+The individual columns of each dictionary are as follows:
 
 -   **Words**: This column lists the individual dictionary entries. We provide stems instead of complete words as stemming is part of the document preprocessing.
 -   **Scores**: This column denotes the polarity score of each entry.
