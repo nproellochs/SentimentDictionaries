@@ -3,12 +3,12 @@
 SentimentDictionaries
 =====================
 
-**SentimentDictionaries** is an R package containing dictionaries for sentiment analysis of movie reviews and financial filings.
+**SentimentDictionaries** contains dictionaries for sentiment analysis of movie reviews and financial filings.
 
 Overview
 --------
 
-This package provides domain-specific dictionaries for sentiment analysis in R. Each dictionary consists of words that statistically feature a positive or negative polarity in movie reviews or financial filings The dictionaries are extracted from two different corpora, namely, IMDb movie reviews and U.S. regulated Form 8-K filings Details are available from the following reference.
+This package provides domain-specific dictionaries for sentiment analysis. Each dictionary consists of words that statistically feature a positive or negative polarity in movie reviews or financial filings The dictionaries are extracted from two different corpora, namely, IMDb movie reviews and U.S. regulated Form 8-K filings. Details are available from the following reference.
 
 -   Proellochs, Feuerriegel and Neumann (2015): Generating Domain-Specific Dictionaries Using Bayesian Learning, Proceedings of the 23rd European Conference on Information Systems (ECIS 2015), Muenster, Germany. [DOI: 10.2139/ssrn.2522884](https://dx.doi.org/10.2139/ssrn.2522884)
 
@@ -70,4 +70,4 @@ License
 
 **SentimentAnalysis** is released under the [MIT License](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2017 Nicolas Pröllochs & Stefan Feuerriegel
+Copyright (c) 2017 Nicolas Proellochs & Stefan Feuerriegel
