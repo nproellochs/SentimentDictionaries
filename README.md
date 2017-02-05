@@ -13,13 +13,13 @@ Details
 Both dictionaries are shipped in CSV format. The individual columns are as follows:
 
 -   **Words**: This column lists the individual dictionary entries. We provide stems instead of complete words as stemming is part of the document preprocessing.
--   **Scores**: This column denotes the polarity scores as described in the reference above.
+-   **Scores**: This column denotes the polarity score of each entry.
 -   **Idf**: This column denotes the [inverse document frequency](https://en.wikipedia.org/wiki/Tf%E2%80%93idf) (idf) of each entry.
 
 Usage in R
 ----------
 
-We also provide both dictionaries in the form of a package for the statistical software R. You can install **SentimentDictionaries** from github with:
+We also provide both dictionaries in the form of a package for the statistical software R. You can install [SentimentDictionaries](https://github.com/nproellochs/SentimentDictionaries/tree/master/R-package) from github with:
 
 ``` r
 # install.packages("devtools")
