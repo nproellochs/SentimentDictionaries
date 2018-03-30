@@ -5,7 +5,7 @@ SentimentDictionaries
 
 This library provides domain-specific dictionaries for sentiment analysis. Each dictionary consists of words that statistically feature a positive or negative polarity in movie reviews or financial filings The dictionaries are extracted from two different corpora, namely, IMDb movie reviews and U.S. regulated Form 8-K filings. Details are available from the following reference.
 
--   Proellochs, Feuerriegel and Neumann (2017): Language That Matters: Statistical Inferences for Polarity Identification in Natural Language, Working Paper, Chair for Information Systems Research, University of Freiburg, Germany.
+-   Pröllochs, Feuerriegel and Neumann (2017): Language That Matters: Statistical Inferences for Polarity Identification in Natural Language, Working Paper, Chair for Information Systems Research, University of Freiburg, Germany.
 
 Details
 -------
@@ -38,4 +38,4 @@ License
 
 **SentimentDictionaries** is released under the [MIT License](https://opensource.org/licenses/MIT)
 
-Copyright (c) 2017 Nicolas Proellochs & Stefan Feuerriegel
+Copyright (c) 2018 Nicolas Proellochs & Stefan Feuerriegel
